@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.content-1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("/assets/Frame 5.jpg");
+    background-size: cover;
+}
+
+.nav {
+    width: 100%;
+    height: 143px;
+    /* background-color: white; */
+    padding: 0 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav i{
+    color: white;
+   font-size: 25px;
+   display: none;
+}
+.left {
+    display: flex;
+    width: 180px;
+    height: 44px;
+    align-items: center;
+    font-size: 22px;
+    color: white;
+}
+
+.left img {
+    width: 32px;
+    height: 29px;
+    margin-top: -8px;
+    padding-right: 5px;
+}
+
+.center {
+    height: 44px;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding: 16px;
+    opacity: 0.7;
+
+}
+
+.center a:hover{
+    opacity: 1;
+}
+
+.right {
+    font-size: 18px;
+    color: #2596be;
+    padding: 5px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content{
+    padding: 0px 150px;
+    width: 100%;
+    height: calc(100vh - 145px);
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: white;
+}
+
+.div1{
+    width: 580px;
+    height: 100%;
+}
+.div1 h1{
+    height: 196px;
+    width: 100%;
+    font-size: 74px;
+}
+
+.div1 p{
+    height: 88px;
+    font-size: 33px ;
+    /* margin: 0 10px; */
+}
+.hollow{
+    margin: 30px 5px 5px 0px;
+    width: 80%;
+    height: 49%;
+    display: flex;
+}
+.hollow1{
+    width: 220px;
+    height: 94%;
+    border-left: 2px solid white;
+    border-bottom:2px solid white;
+}
+
+.hollow2{
+    width: 100%;
+    font-size: 24px;
+      display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  color: rgb(37, 150, 190);
+}
+.div2{
+    width: 578px;
+    height: 589px;
+        background: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    width: 497px;
+    height: 489px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    opacity: 0.8;
+
+}
+
+.info-content{
+    height: 143px;
+    width: 490px;
+    border-left: 6px solid transparent;
+    transition: border-left 0.3s ease;
+    box-sizing: border-box;             
+}
+
+.info-content:hover{
+    border-left: 6px solid white;
+    cursor: pointer;
+    /* opacity: 1; */
+}
+
+.info-content h1{
+    font-size: 28px;
+    margin-bottom: 18px;
+    margin-left: 8px;
+}
+
+.info-content p{
+    font-size: 20px;
+    margin-left: 8px;
+}
+.content-2 {
+    width: 100%;
+    height: 650px;
+    background: url(/assets/historic\ destinations.png);
+    background-repeat: no-repeat;
+    background-size: auto 200px;
+    background-position: left center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    width: 1140px;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.card {
+    width: 320px;
+    height: 450px;
+}
+
+.card h3 {
+    margin: 24px 0;
+    font-size: 28px;
+}
+
+.card p {
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+.content-3 {
+    width: 100%;
+    height: 650px;
+    background: url(/assets/rejuvenation.svg);
+    background-repeat: no-repeat;
+    background-size: 500% 750px;
+    background-position:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.content-3 h1{
+    margin-bottom: 4%;
+}
+
+.cards2 {
+    width: 1140px;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.card2 {
+    width: 320px;
+    height: 450px;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(9px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card2 h3 {
+    margin: 24px 0;
+    font-size: 28px;
+}
+
+.card2 p {
+    font-size: 20px;
+    margin-bottom: 24px;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.card2 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 44px;
+}
+
+.name
+{
+   margin-top:27px;
+}
+
+.left{
+    display: flex;
+    width: 218px;
+    margin-top: -8;
+    padding: 5px;
+    font-size: 22px;
+    
+}
+.full-table{
+    width: 1140px;
+    height: 236px;
+    color: white;  
+    display: flex;
+}
+.content-4{
+    width: 100%;
+    height: 100vh;
+}
+.table{
+    width: 100%;
+    height: 236px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.final{
+    display: flex;
+    margin-left: 300px;
+    width: 768px;
+    height: 236px;
+    justify-content: space-between;
+}
+.finisher{
+    display: flex;
+    justify-content: center;
+}
+.email{
+    width: 593px;
+    height: 196px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.a{
+    font-size: small;
+    margin-right: 60px;
+    text-align: center;
+}
+.box{
+    width: 378;
+    height: 33;
+}
+.b{
+    width: 503px;
+    height: 55px;
+    
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b input{
+    width: 378px;
+    height: 39px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    
+}
+.b button{
+    width: 68px;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+     cursor: pointer;
+    border: 1px solid white;
+    padding: 6px;
+}
+.c{
+    width: 503px;
+    height: 61px;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    
+
+}
+.small{
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    margin-left: 20px;
+}
+.c p{
+    margin-left: 30px;
+        font-size: 14px;
+}
+.d{
+    width: 435px;
+    height: 15px;
+    font-size: 12px;
+    text-align: center;
+
+}
+.social{
+    width: 100%;
+    height: 145px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color: white;
+    padding:0px 40px ;
+
+}
+
+.social i{
+    padding: 15px;
+}
